@@ -5,12 +5,12 @@ app.use(express.json());
 let Joi = require("@hapi/joi");
 
 let songs = [
-    {id:1, name:"Mast Magan", singer:"Arjit Singh", duration:"5.09", price:"$25"},
-    {id:2, name:"Channa Mereya", singer:"Arjit Singh", duration:"3.29", price:"$29"},
-    {id:3, name:"Kabira", singer:"Arjit Singh", duration:"6.00", price:"$35"},
-    {id:4, name:"Rabbta", singer:"Arjit Singh", duration:"4.19", price:"$45"},
-    {id:5, name:"Tum Ho", singer:"Arjit Singh", duration:"5.29", price:"$20"},
-    {id:6, name:"Ghungroo", singer:"Arjit Singh", duration:"4.49", price:"$35"},
+    {id:1, name:"Mast Magan", singer:"Arjit Singh", duration:"3.44", price:"$25"},
+    {id:2, name:"Aankh Marey", singer:"Tanishk Bagchi,Mika", duration:"3.23", price:"$29"},
+    {id:3, name:"Filhaal", singer:"BPraak", duration:"5.31", price:"$35"},
+    {id:4, name:"Wakhra Swag", singer:"Navv Inder", duration:"3.40", price:"$15"},
+    {id:5, name:"Bekhayali", singer:"Sachet-Parampara", duration:"5.54", price:"$50"},
+    {id:6, name:"Ghungroo", singer:"Arjit Singh", duration:"5.35", price:"$55"},
 ];
 
 //all songs
